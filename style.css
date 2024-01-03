@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.main-menu ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 300px;
+  list-style: none;
+  font-family: open sans;
+  font-weight: 600px;
+  line-height: normalss;
+}
+.main-menu ul li a {
+  color: #212121;
+}
+.btn {
+  height: 32px;
+  width: 97px;
+  background: #CAA892;
+  color: #fff;
+  border-radius: 15px 0px;
+}
+
+.hero1{
+  display: flex;
+  margin-top: 107px;
+}
+.hero1-content h6  {
+  font-size: 20px;
+  font-family: open sans;
+  font-weight: 600;
+  line-height: normal;
+  color: #646464;
+  margin-bottom: 12px;
+}
+
+.hero1-content h1 {
+ color: #212121;
+ font-size: 72px;
+ font-family: poppins;
+ font-weight: 600;
+ margin-bottom: 23px;
+ line-height: 78px;
+ 
+}
+
+.hero1-image img{
+  width: 717px;
+  height: 616px;
+  border-radius: 40% 0px;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px blue;}
+}
+  
+.hero1-content p {
+  font-size: 18px;
+  font-family: open sans;
+  font-weight: 400;
+  color: #646464;
+  line-height: 38px;
+  margin-bottom: 20px;
+  
+}
+.hero2-content h6 {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #646464;
+  letter-spacing: - 0.2px;
+  
+}
+.hero2-content h2{
+  font-size: 48px;
+  font-family: poppins;
+  font-weight: 500;
+  
+}
+.hero3 {
+  margin-top: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 425px;
+  height: 193px;
+  border-radius: 60px 0;
+  background-color: #fff;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+  position: relative;
+  transition: .4s ease-in-out;
+  
+}
+ .card-content h2 {
+  color: #212121;
+  font-family: Open sans;
+  font-size: 24px;
+  font-weight: 700px;
+}
+.card-content p {
+  color: #646464;
+  font-family: Open sans;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: - 0.18px;
+  
+}
+
+.card {
+  display: flex;
+  padding: 5px;
+  
+}
+ 
+.card:hover{
+  background-color: #CAA892;
+  color: #fff;
+  
+}
+
